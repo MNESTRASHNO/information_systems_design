@@ -1,6 +1,5 @@
 from flask import Flask
 from flask import render_template
-
 app = Flask(__name__)
 
 @app.route('/')
@@ -10,7 +9,7 @@ def starting_page():
     return """
     <html>
     <head>
-    <p>First commit </p>
+    <p>Second commit </p>
     </head>
     </html>
     """
